@@ -47,7 +47,7 @@ app.listen(port, () => {
 });" > app.js
 
 # Создание Dockerfile
-echo "FROM node:14
+echo "FROM node:16
 
 WORKDIR /usr/src/app
 

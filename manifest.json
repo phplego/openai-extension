@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "OpenAI Text Editor",
+  "version": "1.0",
+  "description": "Выделяйте текст и отправляйте его на OpenAI API для улучшения или перевода.",
+  "options_page": "options.html",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "webview",
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
